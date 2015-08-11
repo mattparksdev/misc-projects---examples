@@ -1,0 +1,6 @@
+var friends = ["Mark", "Lisa", "Denny"]
+
+friends[3] = "Bob";
+
+friends.push("cari")
+console.log(friends[0]);

@@ -1,0 +1,16 @@
+var friends = ["Mark", "Lisa", "Denny"]
+
+friends[3] = "Bob";
+
+friends.push("cari");
+
+
+function greetFriends(){
+for (i = 0; i <= friends.length; i++){
+  console.log( "hello my dear friend " + friends[i]);
+  
+  };
+}
+
+greetFriends();
+
