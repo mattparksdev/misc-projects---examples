@@ -1,0 +1,17 @@
+var coffeeFlavor = "espresso";
+var coffeeTemp = "piping hot";
+var coffeeOunces = 100;
+var coffeeMilk = true;
+
+var myCoffee = {
+  Flavor: "espresso",
+  Temp: prompt("how hot is your coffee?"),
+  Ounces: 100,
+  Milk: true
+};
+
+console.log("So your a " + myCoffee.Flavor + " from the province of " + myCoffee.Temp + "?")
+/*
+Exception: SyntaxError: missing } after property list
+@Scratchpad/1:9
+*/
