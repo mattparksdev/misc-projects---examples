@@ -1,0 +1,8 @@
+var example = "value";
+
+function alertExample(){
+  alert(example);
+}
+alert(example);
+
+alertExample();
