@@ -1,0 +1,28 @@
+var coffeeFlavor = "espresso";
+var coffeeTemp = "piping hot";
+var coffeeOunces = 100;
+var coffeeMilk = true;
+
+var myCoffee = {
+  Flavor: "espresso",
+  Temp: "piping hot",
+  Ounces: 100,
+  Milk: true,
+  
+  reheat: function(){
+  if (myCoffee.Temp === "cold"){
+   myCoffee.Temp = "piping hot";
+     alert("your coffee is hot  again");
+   }else{}
+  }
+};
+
+//console.log("So your a " + myCoffee.Flavor + " from the province of " + myCoffee.Temp + "?")
+
+myCoffee.Temp = "cold";
+
+myCoffee.reheat();
+/*
+Exception: SyntaxError: missing } after property list
+@Scratchpad/1:12
+*/
