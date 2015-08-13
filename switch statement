@@ -1,0 +1,26 @@
+var sign = prompt("what is your astronomical sign?");
+
+
+switch(sign){
+  case "Taurus":
+    alert("gucci!");
+    break;
+  case "Libra":
+    alert("versace");
+    break;
+  case "Leo":
+    alert("hey there");
+    break;
+  default:
+    alert("pick another weapon");
+    break;
+}
+
+/*
+Exception: SyntaxError: missing ; before statement
+@Scratchpad/1:15
+*/
+/*
+Exception: SyntaxError: missing ; before statement
+@Scratchpad/1:15
+*/
