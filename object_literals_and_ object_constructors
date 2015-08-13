@@ -1,0 +1,26 @@
+//object literal
+var mark = {
+  name: "Mark",
+  shirt: "blue"
+};
+
+var lisa = {
+  name: "LIsa",
+  shirt: "red"
+};
+
+
+
+// object constructor
+//name it with uppercase 
+
+function Friend(name, shirt){
+  this.name = name;
+  this.shirt = shirt;
+}
+
+var denny = new Friend("Mark", "green");
+var lisa = new Friend("lisa", "red");
+
+
+alert(denny.name)
