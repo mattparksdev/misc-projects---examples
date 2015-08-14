@@ -1,0 +1,21 @@
+
+//DISPLAY GLOBAL OBJECT 
+
+//since this is a browser, the "this" is calling the browser windows
+
+//alert(this); original functionality
+
+function sayHello(){
+  alert("Hello");
+}
+
+
+window.sayHello();
+
+//re-define global scope to local, showcasing the reason why this and global variables ar so important
+function alert() {
+  console.log("hello!");
+}
+
+
+alert();
