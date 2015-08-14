@@ -1,0 +1,18 @@
+var sign = prompt("what is your astronomical sign?").toLowerCase();
+
+
+switch(sign){
+  case "taurus":
+    alert("gucci!");
+    break;
+  case "Libra":
+    alert("versace");
+    break;
+  case "Leo":
+    alert("hey there");
+    break;
+  default:
+    alert("pick another weapon");
+    break;
+}
+
